@@ -396,10 +396,10 @@ p.nominalBounds = new cjs.Rectangle(-82.2,-95.4,164.5,190.5);
 		createjs.Sound.stop("BGvoice4");
 	}
 	this.frame_541 = function() {
-		createjs.Sound.play("BGvoice5");
 		createjs.Sound.stop("ChewingVoice");
 	}
 	this.frame_542 = function() {
+		createjs.Sound.play("BGvoice5");
 		playSound("bgvoice5");
 	}
 	this.frame_732 = function() {
@@ -5407,15 +5407,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"sounds/airplane.mp3?1523433966187", id:"airplane"},
-		{src:"sounds/bgvoice1.mp3?1523433966187", id:"bgvoice1"},
-		{src:"sounds/bgvoice2.mp3?1523433966187", id:"bgvoice2"},
-		{src:"sounds/bgvoice3.mp3?1523433966187", id:"bgvoice3"},
-		{src:"sounds/bgvoice4.mp3?1523433966187", id:"bgvoice4"},
-		{src:"sounds/bgvoice5.mp3?1523433966187", id:"bgvoice5"},
-		{src:"sounds/chewing.mp3?1523433966187", id:"chewing"},
-		{src:"sounds/slap.mp3?1523433966187", id:"slap"},
-		{src:"sounds/suitcase.mp3?1523433966187", id:"suitcase"}
+		{src:"sounds/airplane.mp3?1523434252526", id:"airplane"},
+		{src:"sounds/bgvoice1.mp3?1523434252526", id:"bgvoice1"},
+		{src:"sounds/bgvoice2.mp3?1523434252526", id:"bgvoice2"},
+		{src:"sounds/bgvoice3.mp3?1523434252526", id:"bgvoice3"},
+		{src:"sounds/bgvoice4.mp3?1523434252526", id:"bgvoice4"},
+		{src:"sounds/bgvoice5.mp3?1523434252526", id:"bgvoice5"},
+		{src:"sounds/chewing.mp3?1523434252526", id:"chewing"},
+		{src:"sounds/slap.mp3?1523434252526", id:"slap"},
+		{src:"sounds/suitcase.mp3?1523434252526", id:"suitcase"}
 	],
 	preloads: []
 };
