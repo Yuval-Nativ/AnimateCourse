@@ -420,9 +420,6 @@ p.nominalBounds = new cjs.Rectangle(-82.2,-95.4,164.5,190.5);
 	this.frame_801 = function() {
 		createjs.Sound.play("SlapSound");
 	}
-	this.frame_808 = function() {
-		createjs.Sound.stop("SlapSound");
-	}
 	this.frame_810 = function() {
 		var self = this;
 		self.stop(); 
@@ -438,7 +435,7 @@ p.nominalBounds = new cjs.Rectangle(-82.2,-95.4,164.5,190.5);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(36).call(this.frame_37).wait(124).call(this.frame_161).wait(1).call(this.frame_162).wait(61).call(this.frame_223).wait(1).call(this.frame_224).wait(1).call(this.frame_225).wait(90).call(this.frame_315).wait(1).call(this.frame_316).wait(1).call(this.frame_317).wait(107).call(this.frame_424).wait(2).call(this.frame_426).wait(114).call(this.frame_540).wait(1).call(this.frame_541).wait(1).call(this.frame_542).wait(190).call(this.frame_732).wait(1).call(this.frame_733).wait(1).call(this.frame_734).wait(21).call(this.frame_755).wait(45).call(this.frame_800).wait(1).call(this.frame_801).wait(7).call(this.frame_808).wait(2).call(this.frame_810).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(36).call(this.frame_37).wait(124).call(this.frame_161).wait(1).call(this.frame_162).wait(61).call(this.frame_223).wait(1).call(this.frame_224).wait(1).call(this.frame_225).wait(90).call(this.frame_315).wait(1).call(this.frame_316).wait(1).call(this.frame_317).wait(107).call(this.frame_424).wait(2).call(this.frame_426).wait(114).call(this.frame_540).wait(1).call(this.frame_541).wait(1).call(this.frame_542).wait(190).call(this.frame_732).wait(1).call(this.frame_733).wait(1).call(this.frame_734).wait(21).call(this.frame_755).wait(45).call(this.frame_800).wait(1).call(this.frame_801).wait(9).call(this.frame_810).wait(1));
 
 	// Camera
 	this.___camera___instance = new lib.___Camera___();
@@ -5407,15 +5404,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"sounds/airplane.mp3?1523434999927", id:"airplane"},
-		{src:"sounds/bgvoice1.mp3?1523434999927", id:"bgvoice1"},
-		{src:"sounds/bgvoice2.mp3?1523434999927", id:"bgvoice2"},
-		{src:"sounds/bgvoice3.mp3?1523434999927", id:"bgvoice3"},
-		{src:"sounds/bgvoice4.mp3?1523434999927", id:"bgvoice4"},
-		{src:"sounds/bgvoice5.mp3?1523434999927", id:"bgvoice5"},
-		{src:"sounds/chewing.mp3?1523434999927", id:"chewing"},
-		{src:"sounds/slap.mp3?1523434999928", id:"slap"},
-		{src:"sounds/suitcase.mp3?1523434999928", id:"suitcase"}
+		{src:"sounds/airplane.mp3?1523435302396", id:"airplane"},
+		{src:"sounds/bgvoice1.mp3?1523435302396", id:"bgvoice1"},
+		{src:"sounds/bgvoice2.mp3?1523435302396", id:"bgvoice2"},
+		{src:"sounds/bgvoice3.mp3?1523435302396", id:"bgvoice3"},
+		{src:"sounds/bgvoice4.mp3?1523435302396", id:"bgvoice4"},
+		{src:"sounds/bgvoice5.mp3?1523435302396", id:"bgvoice5"},
+		{src:"sounds/chewing.mp3?1523435302396", id:"chewing"},
+		{src:"sounds/slap.mp3?1523435302396", id:"slap"},
+		{src:"sounds/suitcase.mp3?1523435302396", id:"suitcase"}
 	],
 	preloads: []
 };
